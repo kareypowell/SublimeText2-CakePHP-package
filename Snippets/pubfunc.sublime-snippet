@@ -1,8 +1,8 @@
 <snippet>
 <content>
 <![CDATA[
-public function ${1:name}() {
-	${2:# // Add method body here}
+public function ${1:name}(${2:param}) {
+	${3:# // Add method body here}
 }
 ]]>
 </content>

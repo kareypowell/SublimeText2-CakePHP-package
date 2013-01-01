@@ -1,8 +1,8 @@
 <snippet>
 <content>
 <![CDATA[
-protected function ${1:name}() {
-	${2:# // Add method body here}
+protected function ${1:name}(${2:param}) {
+	${3:# // Add method body here}
 }
 ]]>
 </content>
