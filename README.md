@@ -1,6 +1,6 @@
 # CakePHP Sublime Text 2 Addons Package for version 2.x
 
-CakePHP Sublime Text 2 Addons Package is a collection of CakePHP snippets and auto completions for Sublime Text 2, which I use for my setup.
+CakePHP Sublime Text 2 Addons Package is a collection of CakePHP snippets and auto completions for Sublime Text 2, that I use for my setup.
 
 ## License
 
