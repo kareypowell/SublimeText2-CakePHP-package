@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+array('$1' => '')
+]]>
+</content>
+<description>Create array with key and value elements</description>
+<tabTrigger>arrkv</tabTrigger>
+<scope>source.php</scope>
+</snippet>

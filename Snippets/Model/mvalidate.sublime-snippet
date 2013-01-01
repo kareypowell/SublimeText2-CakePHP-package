@@ -1,0 +1,18 @@
+<snippet>
+<content>
+<![CDATA[
+public $validate = array(
+	'${1:fieldName}' => array(
+		'rule' 		 => '${2:rule}',
+		'required'   => true,
+		'allowEmpty' => false,
+		'on'         => 'create', // or: 'update'
+		'message' 	 => '${3:message}'
+	)
+);
+]]>
+</content>
+<description>Model field validation</description>
+<tabTrigger>mvalidate</tabTrigger>
+<scope>source.php</scope>
+</snippet>

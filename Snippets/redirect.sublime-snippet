@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+\$this->redirect(array('${1:action}' => '${2:foobar}'));
+]]>
+</content>
+<description>Redirect method</description>
+<tabTrigger>redirect</tabTrigger>
+<scope>source.php</scope>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+	<content>
+	<![CDATA[
+	<?php echo \$this->Form->create(null, array('type' => '${1}', 'action' => '${2}')); ?>
+
+		${3:# code...}
+
+	<?php echo \$this->Form->end('Submit'); ?>
+	]]>
+	</content>
+	<description>Create a view form</description>
+	<tabTrigger>cform</tabTrigger>
+</snippet>

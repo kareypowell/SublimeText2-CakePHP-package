@@ -1,0 +1,12 @@
+<snippet>
+<content>
+<![CDATA[
+public function ${1:name}() {
+	${2:# // Add method body here}
+}
+]]>
+</content>
+<tabTrigger>pubfunc</tabTrigger>
+<description>Create a public function method</description>
+<scope>source.php</scope>
+</snippet>

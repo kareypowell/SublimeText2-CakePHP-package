@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+public \$components = array('${1}');
+]]>
+</content>
+<description>Controller components</description>
+<tabTrigger>ccomp</tabTrigger>
+<scope>source.php</scope>
+</snippet>

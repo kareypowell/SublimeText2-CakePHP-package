@@ -1,0 +1,13 @@
+<snippet>
+<content>
+<![CDATA[
+<?php foreach (\$${1:array} as \$${2:row}): ?>
+
+	${0:// Add code here}
+
+<?php endforeach; ?>
+]]>
+</content>
+<tabTrigger>vforeach</tabTrigger>
+<description>view foreach …</description>
+</snippet>

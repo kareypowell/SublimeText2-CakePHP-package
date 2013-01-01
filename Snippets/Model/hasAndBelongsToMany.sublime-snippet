@@ -1,0 +1,26 @@
+<snippet>
+	<content>
+<![CDATA[
+	public $hasAndBelongsToMany = array(
+		'${1}' => array(
+			'className' => '${2}',
+			'joinTable' => '${3}',
+			'foreignKey' => '${4}',
+			'associationForeignKey' => '${5}',
+			'unique' => 'keepExisting',
+			'conditions' => ${6:array()},
+			'fields' => ${7:array()},
+			'order' => ${8:array()},
+			'limit' => '',
+			'offset' => '',
+			'finderQuery' => '',
+			'deleteQuery' => '',
+			'insertQuery' => ''
+		)
+	);
+]]>
+	</content>
+	<description>Adds a hasAndBelongsToMany (HABTM) between a model</description>
+	<tabTrigger>habtm</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

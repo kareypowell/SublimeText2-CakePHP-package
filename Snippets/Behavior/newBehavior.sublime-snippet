@@ -1,0 +1,56 @@
+<snippet>
+	<content>
+<![CDATA[
+class ${1:Skeleton}Behavior extends ModelBehavior {
+
+    // Called when a behavior is attached to a model.
+    public function setup(Model \$model, array \$settings = array()) {
+        ${2:// Add method body here}
+    }
+
+    // Called when a behavior is detached from a model.
+    public function cleanup(Model \$model) {
+        ${3:// Add method body here}
+    }
+
+    // If a behavior’s beforeFind return’s false it will abort the find().
+    public function beforeFind(Model \$model, array \$query) {
+        ${4:// Add method body here}
+    }
+
+    // Use the afterFind to augment the results of a find.
+    public function afterFind(Model \$model, mixed \$results, boolean \$primary) {
+        ${5:// Add method body here}
+    }
+
+    // Return false from a behavior’s beforeDelete to abort the delete.
+    public function beforeDelete(Model \$model, boolean \$cascade = true) {
+        ${6:// Add method body here}
+    }
+
+    // Use afterDelete to perform clean up operations related to your behavior.
+    public function afterDelete(Model \$model) {
+        ${7:// Add method body here}
+    }
+
+    // Return false from a behavior’s beforeSave to abort the save.
+    public function beforeSave(Model \$model) {
+        ${8:// Add method body here}
+    }
+
+    // Use afterSave to perform clean up operations related to your behavior.
+    public function afterSave(Model \$model, boolean \$created) {
+        ${9:// Add method body here}
+    }
+
+    // Use beforeValidate to modify a model’s validate array or handle any other pre-validation logic. 
+    public function beforeValidate(Model \$model) {
+        ${10:// Add method body here}
+    }
+}
+]]>
+</content>
+	<description>Creates a new behavior</description>
+	<tabTrigger>newbehavior</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

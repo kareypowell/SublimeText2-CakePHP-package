@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+trigger_error(__("${1:Controller}::initialize() - Undefined 'urlRedirect' key in {\$$this->controller->name}Controller::{\$$components['${2:Name}']}", true), E_USER_WARNING);
+]]>
+</content>
+<description>Trigger PHP user warning error</description>
+<tabTrigger>terror</tabTrigger>
+<scope>source.php</scope>
+</snippet>

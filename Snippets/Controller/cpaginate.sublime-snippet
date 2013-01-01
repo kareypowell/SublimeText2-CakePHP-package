@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+public \$paginate = array('limit' => '${1}', 'order' => array('${2}'));
+]]>
+</content>
+<description>Controller pagination</description>
+<tabTrigger>cpaginate</tabTrigger>
+<scope>source.php</scope>
+</snippet>

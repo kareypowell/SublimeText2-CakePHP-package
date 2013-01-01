@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+public \$helpers = array('${1}');
+]]>
+</content>
+<description>Controller helpers</description>
+<tabTrigger>chelpers</tabTrigger>
+<scope>source.php</scope>
+</snippet>

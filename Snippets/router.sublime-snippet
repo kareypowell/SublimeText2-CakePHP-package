@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+Router::connect('/${1:path}', array('controller' => '${2:foo}', 'action' => '${3:bar}'));
+]]>
+</content>
+<description>Url router</description>
+<tabTrigger>router</tabTrigger>
+<scope>source.php</scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+\$this->Session->setFlash(__('${1:foobar}', true));
+]]>
+</content>
+<description>Set session flash</description>
+<tabTrigger>ssf</tabTrigger>
+<scope>source.php</scope>
+</snippet>

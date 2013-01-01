@@ -1,0 +1,15 @@
+<snippet>
+<content>
+<![CDATA[
+/**
+ * Description goes here
+ *
+ * @param type variable
+ * @return type
+ */
+]]>
+</content>
+<description>Create a function comment skeleton</description>
+<tabTrigger>func</tabTrigger>
+<scope>source.php</scope>
+</snippet>

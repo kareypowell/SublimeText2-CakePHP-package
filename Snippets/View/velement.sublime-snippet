@@ -1,0 +1,9 @@
+<snippet>
+<content>
+<![CDATA[
+<?php echo \$this->element('${1:elementName}'); ?>
+]]>
+</content>
+<description>Create a view element</description>
+<tabTrigger>velement</tabTrigger>
+</snippet>

@@ -1,0 +1,43 @@
+<snippet>
+	<content>
+<![CDATA[
+class ${1:Skeleton}Helper extends Helper {
+
+    // Called before all view files are rendered.
+    public function beforeRenderFile(\$viewFile) {
+        ${2:// Add method body here}
+    }
+
+    // Called after all view files are rendered.
+    public function afterRenderFile(\$viewFile, \$content) {
+        ${3:// Add method body here}
+    }
+
+    // Called after the controller’s beforeRender method but before the controller 
+    // renders view and layout.
+    public function beforeRender(\$viewFile) {
+        ${4:// Add method body here}
+    }
+
+    // Called after the view has been rendered but before layout rendering has started.
+    public function afterRender(\$viewFile) {
+        ${5:// Add method body here}
+    }
+
+    // Called before layout rendering starts. Receives the layout filename as an argument.
+    public function beforeLayout(\$layoutFile) {
+        ${6:// Add method body here}
+    }
+
+    // Called after layout rendering is complete. Receives the layout filename as an argument.
+    public function afterLayout(\$layoutFile) {
+        ${7:// Add method body here}
+    }
+
+}
+]]>
+</content>
+	<description>Creates a new helper</description>
+	<tabTrigger>newhelper</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

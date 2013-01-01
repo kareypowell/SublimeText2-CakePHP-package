@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+env('HTTP_REFERER');
+]]>
+</content>
+<description>Refering url</description>
+<tabTrigger>envref</tabTrigger>
+<scope>source.php</scope>
+</snippet>

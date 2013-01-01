@@ -1,0 +1,12 @@
+<snippet>
+<content>
+<![CDATA[
+protected function ${1:name}() {
+	${2:# // Add method body here}
+}
+]]>
+</content>
+<tabTrigger>prfunc</tabTrigger>
+<description>Create a protected function method</description>
+<scope>source.php</scope>
+</snippet>
